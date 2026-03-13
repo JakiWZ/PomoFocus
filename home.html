@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+    <!-- 0.1.0-alpha -->
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PomettoTimer </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+
+
+    <header id = "header">
+
+        <h1>Benvenuto in POMETTO TIMER</h1>
+
+    </header>
+    
+    <!-- Aggiunta di un pulsante -->
+    <!-- Timer -->
+
+
+
+    <!-- AGGIUNTA DEI BOTTONI -->
+      <!-- valore in millisecondi -->
+
+    <button onclick="myVar = setTimeout(myFunction, 1500000)">TIMER 25 Minuti</button>
+
+    <button onclick="myVar = setTimeout(myFunction2, 3000)">TIMER 5 Minuti</button>
+
+    <button onclick="clearTimeout(myVar)"> Ferma il tempo </button>
+   
+
+    <!-- AGGIUNTA DI JAVASCRIPT -->
+
+    <script>
+
+    function myFunction() 
+    {
+        alert("25 minuti terminati");
+    }
+
+    function myFunction2()
+    {
+         alert("5 minuti terminati");
+    }
+
+</script>
+
+</body>
+</html>
